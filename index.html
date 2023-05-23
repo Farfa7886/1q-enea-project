@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="div-embedded-game">
-        <iframe id="embedded-game" frameborder="0" src="https://itch.io/embed-upload/7971076?color=333333" allowfullscreen="" width="640" height="380"><a href="https://farfa7886.itch.io/progetto-enea"></a></iframe>
+        <iframe id="embedded-game" frameborder="0" src="https://itch.io/embed-upload/7971076?color=333333" allowfullscreen="true" width="640" height="380"><a href="https://farfa7886.itch.io/progetto-enea"></a></iframe>
     </div>
     <button id="launchStartModal"  style="visibility: hidden;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"></button>
       
@@ -36,7 +36,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-success" style="width: 20%; height: 30%;">Change language to English</button>
-              <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="openFullscreen(document.getElementById('embedded-game'))" style="width: 20%; height: 30%;">Avvia</button>
+              <button id="startGame" type="button" class="btn btn-primary" data-dismiss="modal" onclick="openFullscreen(document.getElementById('embedded-game'))" style="width: 20%; height: 30%;">Avvia</button>
             </div>
           </div>
         </div>

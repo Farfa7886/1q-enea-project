@@ -6,6 +6,7 @@ function openFullscreen(elem) {
     } else if (elem.msRequestFullscreen) { /* IE11 */
       elem.msRequestFullscreen();
     }
+    document.getElementById("startGame").innerText = "Riprendi"
   }
 
 
