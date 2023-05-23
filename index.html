@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1Q Enea Project</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
     <div id="div-embedded-game">
@@ -20,8 +21,8 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Tutorial</h5>
-              </button>
-            </div>
+              <a class="github-button" href="https://github.com/Farfa7886/1q-enea-project" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star Farfa7886/1q-enea-project on GitHub">Star</a>
+        </div>
             <div class="modal-body" style="text-align: center;">
                 <img src="./images/controls-it.png">
               <div style="display: flex; justify-content: center; margin-top: 20px" id="1-tuto">
@@ -35,7 +36,7 @@
             </div>
             </div>
             <div class="modal-footer">
-                <button type="button" href="/en.html" class="btn btn-success" style="width: 20%; height: 30%;">Change language to English</button>
+                <button type="button" onclick="goto('./en.html')" class="btn btn-success" style="width: 20%; height: 30%;">Change language to English</button>
               <button id="startGame" type="button" class="btn btn-primary" data-dismiss="modal" onclick="openFullscreen(document.getElementById('embedded-game'))" style="width: 20%; height: 30%;">Avvia</button>
             </div>
           </div>

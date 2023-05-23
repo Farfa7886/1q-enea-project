@@ -11,7 +11,11 @@ function openFullscreen(elem, lang) {
     } else {
         document.getElementById("startGame").innerText = "Riprendi"
     }
-  }
+}
+
+function goto(link) {
+    window.location.replace(link);
+}
 
 
 
