@@ -1,3 +1,5 @@
+<!-- DON'T BLAME ME BECAUSE I MADE A SEPARATE PAGE TO MAKE THE ENGLISH VERSION, IT'S BECAUSE I CAN NEVER GET THE VERCEL SERVELESS FUNCTION TO WORK WITH THE EXPRESS SERVER -->
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -25,18 +27,18 @@
             <div class="modal-body" style="text-align: center;">
                 <img src="./images/controls-it.png">
               <div style="display: flex; justify-content: center; margin-top: 20px" id="1-tuto">
-                <p style="margin-right: 50px;"><strong style="color:red">Rosso: </strong>movimento</p>
-                <p style="margin-right: 50px;"><strong style="color:#32BAFF">Blu: </strong> salta</p>
-                <p style="margin-right: 50px;"><strong style="color:#FFCC14">Giallo: </strong>accelera</p>
-                <p style="margin-right: 50px;"><strong style="color:#FF3DCB">Fucsia (ESC): </strong>esci</p>
+                <p style="margin-right: 50px;"><strong style="color:red">Rosso: </strong>movement</p>
+                <p style="margin-right: 50px;"><strong style="color:#32BAFF">Blu: </strong> jump</p>
+                <p style="margin-right: 50px;"><strong style="color:#FFCC14">Giallo: </strong>accelerate</p>
+                <p style="margin-right: 50px;"><strong style="color:#FF3DCB">Fucsia (ESC): </strong>exit</p>
             </div>
             <div style="display: flex; justify-content: center;" id="2-warning">
-                <p style="margin-top: 20px;">⚠️ Gioco ancora in fase di sviluppo</p>
+                <p style="margin-top: 20px;">⚠️ Game is in development stage</p>
             </div>
             </div>
             <div class="modal-footer">
-                <button type="button" href="/en.html" class="btn btn-success" style="width: 20%; height: 30%;">Change language to English</button>
-              <button id="startGame" type="button" class="btn btn-primary" data-dismiss="modal" onclick="openFullscreen(document.getElementById('embedded-game'))" style="width: 20%; height: 30%;">Avvia</button>
+                <button type="button" href="/index.html" class="btn btn-success" style="width: 20%; height: 30%;">Cambia lingua a italiano</button>
+              <button id="startGame" type="button" class="btn btn-primary" data-dismiss="modal" onclick="openFullscreen(document.getElementById('embedded-game'), 'en')" style="width: 20%; height: 30%;">Avvia</button>
             </div>
           </div>
         </div>

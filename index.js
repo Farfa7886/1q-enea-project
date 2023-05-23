@@ -1,4 +1,4 @@
-function openFullscreen(elem) {
+function openFullscreen(elem, lang) {
     if (elem.requestFullscreen) {
       elem.requestFullscreen();
     } else if (elem.webkitRequestFullscreen) { /* Safari */
@@ -6,7 +6,11 @@ function openFullscreen(elem) {
     } else if (elem.msRequestFullscreen) { /* IE11 */
       elem.msRequestFullscreen();
     }
-    document.getElementById("startGame").innerText = "Riprendi"
+    if (lang === 'en') {
+        document.getElementById("startGame").innerText = "Resume"
+    } else {
+        document.getElementById("startGame").innerText = "Riprendi"
+    }
   }
 
 
