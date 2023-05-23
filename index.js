@@ -13,3 +13,5 @@ function openFullscreen(elem) {
 
 document.getElementById("embedded-game").setAttribute("height", screen.height)
 document.getElementById("embedded-game").setAttribute("width", screen.width)
+
+// Todo -> cookies
