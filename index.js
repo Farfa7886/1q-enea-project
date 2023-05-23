@@ -10,5 +10,5 @@ function openFullscreen(elem) {
 
 
 
-document.getElementById("embedded-game").setAttribute("height", screen.height - 150)
-document.getElementById("embedded-game").setAttribute("width", screen.width - 10)
+document.getElementById("embedded-game").setAttribute("height", screen.height)
+document.getElementById("embedded-game").setAttribute("width", screen.width)
